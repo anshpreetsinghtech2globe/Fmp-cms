@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_service_applications",
+  "info": {
+    "displayName": "Service Applications",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.string-item"
+    }
+  },
+  "config": {}
+}

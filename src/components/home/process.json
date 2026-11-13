@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_home_processs",
+  "info": {
+    "displayName": "Process",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonHref": {
+      "type": "string"
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.step-item"
+    }
+  },
+  "config": {}
+}

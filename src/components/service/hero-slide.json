@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_service_hero_slides",
+  "info": {
+    "displayName": "Service Hero Slide",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "slideId": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "string"
+    },
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "titleBefore": {
+      "type": "string"
+    },
+    "titleHighlightValue": {
+      "type": "string"
+    },
+    "titleAfter": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonHref": {
+      "type": "string"
+    },
+    "footnote": {
+      "type": "text"
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.icon-card"
+    }
+  },
+  "config": {}
+}

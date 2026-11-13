@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_home_teams",
+  "info": {
+    "displayName": "Team",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "string"
+    },
+    "headlineAccent": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "members": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.team-member"
+    }
+  },
+  "config": {}
+}

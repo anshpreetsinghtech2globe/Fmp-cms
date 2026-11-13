@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_how_we_manages",
+  "info": {
+    "displayName": "How We Manage",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.step-item"
+    }
+  },
+  "config": {}
+}

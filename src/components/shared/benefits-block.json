@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_benefits_blocks",
+  "info": {
+    "displayName": "Benefits Block",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.icon-card"
+    }
+  },
+  "config": {}
+}

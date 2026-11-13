@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_shared_offer_items",
+  "info": {
+    "displayName": "Offer Item",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "blue",
+        "yellow",
+        "teal"
+      ],
+      "default": "blue"
+    },
+    "highlight": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonHref": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "imageAlt": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

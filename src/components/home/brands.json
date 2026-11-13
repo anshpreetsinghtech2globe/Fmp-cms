@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_home_brandss",
+  "info": {
+    "displayName": "Brands",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "string"
+    },
+    "headlineAccent": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "logos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.brand-logo"
+    }
+  },
+  "config": {}
+}

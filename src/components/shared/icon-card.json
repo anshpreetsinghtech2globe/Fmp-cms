@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_icon_cards",
+  "info": {
+    "displayName": "Icon Card",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

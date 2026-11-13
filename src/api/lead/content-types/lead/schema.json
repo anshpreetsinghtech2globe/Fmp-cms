@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leads",
+  "info": {
+    "singularName": "lead",
+    "pluralName": "leads",
+    "displayName": "Lead",
+    "description": "Estimate, contact, and mailing list submissions"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "address": {
+      "type": "string"
+    },
+    "service": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "source": {
+      "type": "enumeration",
+      "enum": ["hero", "contact", "product", "mailing-list"],
+      "default": "hero",
+      "required": true
+    },
+    "smsConsent": {
+      "type": "boolean",
+      "default": false
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": ["new", "contacted", "closed"],
+      "default": "new"
+    }
+  }
+}

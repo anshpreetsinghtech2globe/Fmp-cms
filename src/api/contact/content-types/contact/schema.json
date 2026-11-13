@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact (Dynamic)",
+    "description": "Dynamic — Contact Us page-only content (map stays in code)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Contact Us"
+    },
+    "seoTitle": {
+      "type": "string"
+    },
+    "seoDescription": {
+      "type": "text"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.hero"
+    },
+    "details": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.details"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.form"
+    }
+  }
+}

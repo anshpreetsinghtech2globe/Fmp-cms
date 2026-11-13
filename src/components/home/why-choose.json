@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_why_chooses",
+  "info": {
+    "displayName": "Why Choose",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.icon-card"
+    }
+  },
+  "config": {}
+}

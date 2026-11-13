@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_home_ctas",
+  "info": {
+    "displayName": "Bottom CTA",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "headlineWhite": {
+      "type": "string"
+    },
+    "headlineTeal": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "phoneHref": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonHref": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

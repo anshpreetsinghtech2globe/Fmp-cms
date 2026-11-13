@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_image_paths",
+  "info": {
+    "displayName": "Image Path",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

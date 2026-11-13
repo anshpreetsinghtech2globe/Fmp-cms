@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_service_tips",
+  "info": {
+    "displayName": "Service Tips",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "backgroundImage": {
+      "type": "string"
+    },
+    "tips": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text-item"
+    }
+  },
+  "config": {}
+}

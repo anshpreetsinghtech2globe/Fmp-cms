@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_videoss",
+  "info": {
+    "displayName": "Explore Videos",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.video-tab"
+    }
+  },
+  "config": {}
+}

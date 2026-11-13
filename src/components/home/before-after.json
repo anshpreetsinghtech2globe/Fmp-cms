@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_home_before_afters",
+  "info": {
+    "displayName": "Before After",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.string-item"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonHref": {
+      "type": "string"
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.before-after-item"
+    }
+  },
+  "config": {}
+}

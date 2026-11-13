@@ -1,0 +1,106 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_pages",
+  "info": {
+    "singularName": "service-page",
+    "pluralName": "service-pages",
+    "displayName": "Service Page (Dynamic)",
+    "description": "HOW TO ADD A NEW PAGE: Open “EXAMPLE — Duplicate me…”, click the ⋮ menu → Duplicate, change Title + Slug, edit the sample text, then Publish. The new page appears at /services/your-slug. Do not start from a blank Create form."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "New Flooring Service"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "seoTitle": {
+      "type": "string",
+      "default": "New Flooring Service | FMP Flooring"
+    },
+    "seoDescription": {
+      "type": "text",
+      "default": "Replace this with a short SEO description for the new flooring service page."
+    },
+    "processTitle": {
+      "type": "string",
+      "default": "Get Brand New Flooring in 4 Simple Steps"
+    },
+    "processDescription": {
+      "type": "text",
+      "default": "A clear, step-by-step process so your flooring project stays organized, efficient, and stress-free from start to finish."
+    },
+    "isExampleTemplate": {
+      "type": "boolean",
+      "default": false,
+      "private": true
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "service.hero"
+    },
+    "intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "service.intro"
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.benefits-block"
+    },
+    "highlights": {
+      "type": "component",
+      "repeatable": false,
+      "component": "service.highlights"
+    },
+    "tips": {
+      "type": "component",
+      "repeatable": false,
+      "component": "service.tips"
+    },
+    "applications": {
+      "type": "component",
+      "repeatable": false,
+      "component": "service.applications"
+    },
+    "compare": {
+      "type": "component",
+      "repeatable": false,
+      "component": "service.compare"
+    },
+    "install": {
+      "type": "component",
+      "repeatable": false,
+      "component": "service.install"
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.faq"
+    },
+    "offers": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.offers"
+    },
+    "commercialProjects": {
+      "type": "component",
+      "repeatable": false,
+      "component": "service.commercial-projects"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.cta"
+    }
+  }
+}

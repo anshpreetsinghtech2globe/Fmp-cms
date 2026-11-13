@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_project_listing_heros",
+  "info": {
+    "displayName": "Project Listing Hero",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "breadcrumbLabel": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

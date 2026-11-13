@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_brand_logos",
+  "info": {
+    "displayName": "Brand Logo",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

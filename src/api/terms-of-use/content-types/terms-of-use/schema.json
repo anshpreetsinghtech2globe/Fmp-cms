@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "terms_of_uses",
+  "info": {
+    "singularName": "terms-of-use",
+    "pluralName": "terms-of-uses",
+    "displayName": "Terms of Use (Dynamic)",
+    "description": "Dynamic — Terms & Conditions / Terms of Use page content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Terms of Use"
+    },
+    "seoTitle": {
+      "type": "string"
+    },
+    "seoDescription": {
+      "type": "text"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "privacy.hero"
+    },
+    "blocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "privacy.block"
+    }
+  }
+}

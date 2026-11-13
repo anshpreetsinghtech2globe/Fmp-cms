@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_home_founders",
+  "info": {
+    "displayName": "Founder",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "string"
+    },
+    "headlineAccent": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "values": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.icon-card"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonHref": {
+      "type": "string"
+    },
+    "videoSrc": {
+      "type": "string"
+    },
+    "videoPoster": {
+      "type": "string"
+    },
+    "videoAspectRatio": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

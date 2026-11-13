@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_settings",
+  "info": {
+    "singularName": "site-setting",
+    "pluralName": "site-settings",
+    "displayName": "Site Settings (Global)",
+    "description": "Global — Header, Footer, Areas We Serve (sitewide chrome)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Site Settings"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "site.header"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "site.footer"
+    },
+    "areasWeServe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "site.areas-we-serve"
+    }
+  }
+}

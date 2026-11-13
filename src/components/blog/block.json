@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_blog_blocks",
+  "info": {
+    "displayName": "Content Block",
+    "icon": "file",
+    "description": "Add headings, paragraphs, bullet lists, or one or more images with optional teal caption bar."
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "headingLevel": {
+      "type": "enumeration",
+      "enum": ["h2", "h3"],
+      "default": "h2"
+    },
+    "paragraphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text-item"
+    },
+    "bullets": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text-item"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": ["images"]
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "imageCaption": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

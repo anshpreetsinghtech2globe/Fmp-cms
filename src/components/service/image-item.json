@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_service_image_items",
+  "info": {
+    "displayName": "Service Image",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "src": {
+      "type": "string",
+      "required": true
+    },
+    "alt": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

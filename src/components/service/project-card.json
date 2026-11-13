@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_service_project_cards",
+  "info": {
+    "displayName": "Service Project Card",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "string"
+    },
+    "badge": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

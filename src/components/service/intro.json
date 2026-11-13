@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_service_intros",
+  "info": {
+    "displayName": "Service Intro",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text-item"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service.image-item"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonHref": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

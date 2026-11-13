@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_featuress",
+  "info": {
+    "displayName": "Features",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.icon-card"
+    }
+  },
+  "config": {}
+}

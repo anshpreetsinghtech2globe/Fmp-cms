@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_service_compares",
+  "info": {
+    "displayName": "Service Compare",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "featureLabel": {
+      "type": "string"
+    },
+    "columns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.string-item"
+    },
+    "rows": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service.compare-row"
+    }
+  },
+  "config": {}
+}

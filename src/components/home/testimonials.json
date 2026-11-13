@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_testimonialss",
+  "info": {
+    "displayName": "Testimonials",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.testimonial-item"
+    }
+  },
+  "config": {}
+}

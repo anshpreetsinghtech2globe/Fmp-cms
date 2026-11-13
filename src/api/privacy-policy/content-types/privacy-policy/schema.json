@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "privacy_policies",
+  "info": {
+    "singularName": "privacy-policy",
+    "pluralName": "privacy-policies",
+    "displayName": "Privacy Policy (Dynamic)",
+    "description": "Dynamic — Privacy Policy page content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Privacy Policy"
+    },
+    "seoTitle": {
+      "type": "string"
+    },
+    "seoDescription": {
+      "type": "text"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "privacy.hero"
+    },
+    "blocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "privacy.block"
+    }
+  }
+}

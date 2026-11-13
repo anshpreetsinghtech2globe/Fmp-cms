@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_text_parts",
+  "info": {
+    "displayName": "Text Part",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "highlight": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "config": {}
+}

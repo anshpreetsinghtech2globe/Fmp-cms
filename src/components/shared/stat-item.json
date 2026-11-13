@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_stat_items",
+  "info": {
+    "displayName": "Stat Item",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "highlight"
+      ],
+      "default": "default"
+    }
+  },
+  "config": {}
+}

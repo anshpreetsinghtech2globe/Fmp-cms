@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_about_bottom_ctas",
+  "info": {
+    "displayName": "About Bottom CTA",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "primaryLabel": {
+      "type": "string"
+    },
+    "primaryHref": {
+      "type": "string"
+    },
+    "secondaryLabel": {
+      "type": "string"
+    },
+    "secondaryHref": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

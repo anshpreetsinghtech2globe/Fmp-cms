@@ -1,0 +1,60 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About (Dynamic)",
+    "description": "Dynamic — About Us page-only content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "About Us"
+    },
+    "seoTitle": {
+      "type": "string"
+    },
+    "seoDescription": {
+      "type": "text"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.hero"
+    },
+    "intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.intro"
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.stat-item"
+    },
+    "highlights": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.highlights"
+    },
+    "brands": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.brands"
+    },
+    "team": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.team"
+    },
+    "bottomCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.bottom-cta"
+    }
+  }
+}

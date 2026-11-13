@@ -1,0 +1,72 @@
+{
+  "collectionName": "components_site_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "string"
+    },
+    "blurb": {
+      "type": "text"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.social-link"
+    },
+    "facebookUrl": {
+      "type": "string"
+    },
+    "instagramUrl": {
+      "type": "string"
+    },
+    "youtubeUrl": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "phoneHref": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "proSolutionsLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "serviceLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "usefulLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "certifications": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cert-item"
+    },
+    "copyrightName": {
+      "type": "string"
+    },
+    "developerName": {
+      "type": "string"
+    },
+    "developerHref": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

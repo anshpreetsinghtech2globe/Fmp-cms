@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_service_compare_rows",
+  "info": {
+    "displayName": "Service Compare Row",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "feature": {
+      "type": "string",
+      "required": true
+    },
+    "values": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.string-item"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_video_clips",
+  "info": {
+    "displayName": "Video Clip",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "src": {
+      "type": "string"
+    },
+    "poster": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "youtubeId": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

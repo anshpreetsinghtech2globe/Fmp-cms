@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_home_latest_projectss",
+  "info": {
+    "displayName": "Latest Projects",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "embedUrl": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_project_quote_ctas",
+  "info": {
+    "displayName": "Project Quote CTA",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonHref": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

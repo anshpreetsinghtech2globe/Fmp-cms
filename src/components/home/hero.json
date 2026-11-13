@@ -1,0 +1,57 @@
+{
+  "collectionName": "components_home_heros",
+  "info": {
+    "displayName": "Hero",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "badge": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "titleHighlight": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "string"
+    },
+    "backgroundImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.image-path"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text-part"
+    },
+    "ctas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cta-link"
+    },
+    "formTitle": {
+      "type": "string"
+    },
+    "formDescription": {
+      "type": "text"
+    },
+    "formButtonText": {
+      "type": "string"
+    },
+    "formServices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.string-item"
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.stat-item"
+    }
+  },
+  "config": {}
+}

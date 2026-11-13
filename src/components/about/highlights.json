@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_about_highlights",
+  "info": {
+    "displayName": "About Highlights",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.icon-card"
+    }
+  },
+  "config": {}
+}

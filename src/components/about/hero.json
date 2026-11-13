@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_about_heros",
+  "info": {
+    "displayName": "About Hero",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "breadcrumbLabel": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

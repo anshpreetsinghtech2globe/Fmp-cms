@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_service_commercial_projects",
+  "info": {
+    "displayName": "Service Commercial Projects",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service.project-card"
+    }
+  },
+  "config": {}
+}

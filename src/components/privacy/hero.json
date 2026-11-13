@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_privacy_heros",
+  "info": {
+    "displayName": "Privacy Hero",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "breadcrumbLabel": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_service_highlights",
+  "info": {
+    "displayName": "Service Highlights",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service.highlight-item"
+    }
+  },
+  "config": {}
+}

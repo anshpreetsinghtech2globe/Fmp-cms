@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_service_highlight_items",
+  "info": {
+    "displayName": "Service Highlight Item",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "line1": {
+      "type": "string"
+    },
+    "line2": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

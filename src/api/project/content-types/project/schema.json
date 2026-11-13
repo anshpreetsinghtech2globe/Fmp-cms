@@ -1,0 +1,94 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project (Dynamic)",
+    "description": "For new projects: upload Cover (card/main photo) and Gallery images from Media Library. Choose type → Publish → live on /commercial or /residential."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": ["commercial", "residential"],
+      "required": true,
+      "default": "commercial"
+    },
+    "listTitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "badge": {
+      "type": "string"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "cardImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "image": {
+      "type": "string",
+      "pluginOptions": {
+        "content-manager": {
+          "visible": false
+        }
+      }
+    },
+    "listImage": {
+      "type": "string",
+      "pluginOptions": {
+        "content-manager": {
+          "visible": false
+        }
+      }
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.string-item",
+      "pluginOptions": {
+        "content-manager": {
+          "visible": false
+        }
+      }
+    },
+    "details": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project.detail-item"
+    },
+    "seoTitle": {
+      "type": "string"
+    },
+    "seoDescription": {
+      "type": "text"
+    }
+  }
+}

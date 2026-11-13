@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_before_after_items",
+  "info": {
+    "displayName": "Before After Item",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "beforeImage": {
+      "type": "string"
+    },
+    "afterImage": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

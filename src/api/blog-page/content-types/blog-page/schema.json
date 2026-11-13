@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_pages",
+  "info": {
+    "singularName": "blog-page",
+    "pluralName": "blog-pages",
+    "displayName": "Blog Page",
+    "description": "Hero and intro copy for the /blog listing page."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Blog"
+    },
+    "heroEyebrow": {
+      "type": "string",
+      "default": "Latest Insights"
+    },
+    "heroTitle": {
+      "type": "string",
+      "default": "Flooring Guides, Tips & Design Trends"
+    },
+    "heroDescription": {
+      "type": "text"
+    },
+    "listingEyebrow": {
+      "type": "string",
+      "default": "Our Blog"
+    },
+    "listingTitle": {
+      "type": "string",
+      "default": "Educational Resources"
+    },
+    "listingDescription": {
+      "type": "text"
+    },
+    "seoTitle": {
+      "type": "string"
+    },
+    "seoDescription": {
+      "type": "text"
+    }
+  }
+}

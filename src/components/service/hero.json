@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_service_heros",
+  "info": {
+    "displayName": "Service Hero",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "breadcrumbs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service.breadcrumb"
+    },
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service.hero-slide"
+    },
+    "formTitle": {
+      "type": "string"
+    },
+    "formDescription": {
+      "type": "text"
+    },
+    "formButtonText": {
+      "type": "string"
+    },
+    "defaultService": {
+      "type": "string"
+    },
+    "formServices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.string-item"
+    }
+  },
+  "config": {}
+}

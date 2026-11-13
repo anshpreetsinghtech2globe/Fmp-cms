@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_project_gallery_intros",
+  "info": {
+    "displayName": "Project Gallery Intro",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

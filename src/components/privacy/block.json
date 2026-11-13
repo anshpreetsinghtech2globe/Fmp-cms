@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_privacy_blocks",
+  "info": {
+    "displayName": "Privacy Block",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text-item"
+    },
+    "bullets": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text-item"
+    }
+  },
+  "config": {}
+}

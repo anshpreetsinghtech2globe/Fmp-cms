@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_cert_items",
+  "info": {
+    "displayName": "Certification",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "src": {
+      "type": "string",
+      "required": true
+    },
+    "alt": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

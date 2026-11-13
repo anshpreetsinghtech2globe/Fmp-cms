@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "residential_pages",
+  "info": {
+    "singularName": "residential-page",
+    "pluralName": "residential-pages",
+    "displayName": "Residential Page (Dynamic)",
+    "description": "Dynamic — /residential listing page (hero, gallery intro, CTA). Projects come from Project collection where type = residential."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Residential Projects"
+    },
+    "seoTitle": {
+      "type": "string"
+    },
+    "seoDescription": {
+      "type": "text"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "project.listing-hero"
+    },
+    "gallery": {
+      "type": "component",
+      "repeatable": false,
+      "component": "project.gallery-intro"
+    },
+    "quoteCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "project.quote-cta"
+    }
+  }
+}

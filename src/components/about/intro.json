@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_about_intros",
+  "info": {
+    "displayName": "About Intro",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text-item"
+    },
+    "image": {
+      "type": "string"
+    },
+    "imageAlt": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

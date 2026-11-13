@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_contact_forms",
+  "info": {
+    "displayName": "Contact Form",
+    "icon": "envelop"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "smsConsentText": {
+      "type": "text"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.string-item"
+    }
+  },
+  "config": {}
+}

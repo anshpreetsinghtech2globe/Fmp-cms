@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_project_detail_items",
+  "info": {
+    "displayName": "Project Detail Item",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

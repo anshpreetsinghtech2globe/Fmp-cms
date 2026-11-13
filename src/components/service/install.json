@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_service_installs",
+  "info": {
+    "displayName": "Service Install",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "servicesTitle": {
+      "type": "string"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.string-item"
+    },
+    "image": {
+      "type": "string"
+    },
+    "imageAlt": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

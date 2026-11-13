@@ -1,0 +1,119 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage (Dynamic)",
+    "description": "Dynamic — Homepage-only sections (excludes Facebook feed and Google reviews)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Homepage"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.hero"
+    },
+    "federal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.federal"
+    },
+    "process": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.process"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.services"
+    },
+    "quoteCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.quote-cta"
+    },
+    "founder": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.founder"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.features"
+    },
+    "howWeManageProjects": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.how-we-manage"
+    },
+    "videos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.videos"
+    },
+    "brands": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.brands"
+    },
+    "beforeAfter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.before-after"
+    },
+    "team": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.team"
+    },
+    "offers": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.offers"
+    },
+    "whyChoose": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.why-choose"
+    },
+    "latestProjects": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.latest-projects"
+    },
+    "educationalResources": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.educational-resources"
+    },
+    "educationalVideos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.educational-videos"
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.testimonials"
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.faq"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.cta"
+    }
+  }
+}

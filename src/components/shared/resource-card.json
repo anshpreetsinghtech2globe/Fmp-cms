@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_shared_resource_cards",
+  "info": {
+    "displayName": "Resource Card",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "dateLabel": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "image": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

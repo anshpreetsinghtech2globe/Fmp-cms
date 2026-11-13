@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "shared_sections",
+  "info": {
+    "singularName": "shared-section",
+    "pluralName": "shared-sections",
+    "displayName": "Shared Sections",
+    "description": "Shared — reused across pages (process, benefits, testimonials, CTA, marquee, finance)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Shared Sections"
+    },
+    "marqueeItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.string-item"
+    },
+    "process": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.process-block"
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.benefits-block"
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.testimonials"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.cta"
+    },
+    "financeBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.finance-banner"
+    }
+  }
+}

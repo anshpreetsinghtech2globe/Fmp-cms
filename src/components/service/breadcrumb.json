@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_service_breadcrumbs",
+  "info": {
+    "displayName": "Service Breadcrumb",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

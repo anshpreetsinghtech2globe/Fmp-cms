@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_video_tabs",
+  "info": {
+    "displayName": "Video Tab",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "tabId": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string"
+    },
+    "videos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.video-clip"
+    }
+  },
+  "config": {}
+}

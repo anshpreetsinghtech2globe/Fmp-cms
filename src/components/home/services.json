@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_servicess",
+  "info": {
+    "displayName": "Services",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.service-card"
+    }
+  },
+  "config": {}
+}
