@@ -8,6 +8,7 @@ module.exports = [
       origin: [
         "http://localhost:3000",
         "http://127.0.0.1:3000",
+        "http://51.81.221.49:3000",
         "https://fmp-flooring.vercel.app",
       ],
       headers: ["Content-Type", "Authorization", "Origin", "Accept"],
